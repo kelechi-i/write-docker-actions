@@ -2,8 +2,8 @@ name: Docker Actions
 
 on:
   pull_request:
-    branches: [ main ]
-    # types: [labeled]
+    # branches: [ main ]
+    types: [labeled]
 
 jobs:
   action:
